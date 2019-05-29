@@ -1,0 +1,15 @@
+{
+  "environment": "development",
+  "hydra": {
+    "serviceName": "administration-service",
+    "serviceIP": "",
+    "servicePort": 3500,
+    "serviceType": "administration",
+    "serviceDescription": "Manages users and data and other administartion activities",
+    "redis": {
+      "url": "127.0.0.1",
+      "port": 6379,
+      "db": 15
+    }
+  }
+}
